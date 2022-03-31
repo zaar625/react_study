@@ -5,11 +5,11 @@ import createRequestThunk from "../lib/createRequestThunk";
 // action타입 설정
 const GET_POST = 'sample/GET_POST';
 const GET_POST_SUCCESS = 'sample/GET_POST_SUCCESS';
-const GET_POST_FAILURE = 'sample/GET_POST_FAILURE';
+// const GET_POST_FAILURE = 'sample/GET_POST_FAILURE';
 
 const GET_USERS = 'sample/GET_USERS';
 const GET_USERS_SUCCESS = 'sample/GET_USERS_SUCCESS';
-const GET_USERS_FAILURE = 'sample/GET_USERS_FAILURE';
+// const GET_USERS_FAILURE = 'sample/GET_USERS_FAILURE';
 
 //thunk 함수를 생성한다.
 //thunk 함수 내부에서는 시작할때, 성공했을때, 실패했을때 다른 액션을 디스패치 한다.
